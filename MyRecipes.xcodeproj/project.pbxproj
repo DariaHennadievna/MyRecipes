@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		843D7E2B1B42CAF100A9D58E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E2A1B42CAF100A9D58E /* main.m */; };
 		843D7E2E1B42CAF100A9D58E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E2D1B42CAF100A9D58E /* AppDelegate.m */; };
-		843D7E311B42CAF100A9D58E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E301B42CAF100A9D58E /* ViewController.m */; };
 		843D7E341B42CAF100A9D58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843D7E321B42CAF100A9D58E /* Main.storyboard */; };
 		843D7E361B42CAF100A9D58E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843D7E351B42CAF100A9D58E /* Images.xcassets */; };
 		843D7E391B42CAF100A9D58E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843D7E371B42CAF100A9D58E /* LaunchScreen.xib */; };
 		843D7E451B42CAF100A9D58E /* MyRecipesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E441B42CAF100A9D58E /* MyRecipesTests.m */; };
+		843D7E501B42CCB000A9D58E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E4F1B42CCB000A9D58E /* SWRevealViewController.m */; };
+		843D7E551B42D9DF00A9D58E /* NavigationMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E541B42D9DF00A9D58E /* NavigationMenuVC.m */; };
+		843D7E581B42DBD300A9D58E /* AppetizerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E571B42DBD300A9D58E /* AppetizerVC.m */; };
+		843D7E5B1B42DBEB00A9D58E /* DesertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E5A1B42DBEB00A9D58E /* DesertVC.m */; };
+		843D7E5E1B42DC1200A9D58E /* SecondDishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E5D1B42DC1200A9D58E /* SecondDishVC.m */; };
+		845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C18621B43D36A00172A62 /* FavoriteVC.m */; };
+		845C18661B43D38F00172A62 /* DietVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C18651B43D38F00172A62 /* DietVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,26 @@
 		843D7E2A1B42CAF100A9D58E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		843D7E2C1B42CAF100A9D58E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		843D7E2D1B42CAF100A9D58E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		843D7E2F1B42CAF100A9D58E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		843D7E301B42CAF100A9D58E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		843D7E331B42CAF100A9D58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		843D7E351B42CAF100A9D58E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		843D7E381B42CAF100A9D58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		843D7E3E1B42CAF100A9D58E /* MyRecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843D7E431B42CAF100A9D58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843D7E441B42CAF100A9D58E /* MyRecipesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRecipesTests.m; sourceTree = "<group>"; };
+		843D7E4E1B42CCB000A9D58E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		843D7E4F1B42CCB000A9D58E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		843D7E531B42D9DF00A9D58E /* NavigationMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationMenuVC.h; sourceTree = "<group>"; };
+		843D7E541B42D9DF00A9D58E /* NavigationMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationMenuVC.m; sourceTree = "<group>"; };
+		843D7E561B42DBD300A9D58E /* AppetizerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppetizerVC.h; path = VCs/AppetizerVC.h; sourceTree = "<group>"; };
+		843D7E571B42DBD300A9D58E /* AppetizerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppetizerVC.m; path = VCs/AppetizerVC.m; sourceTree = "<group>"; };
+		843D7E591B42DBEB00A9D58E /* DesertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesertVC.h; sourceTree = "<group>"; };
+		843D7E5A1B42DBEB00A9D58E /* DesertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesertVC.m; sourceTree = "<group>"; };
+		843D7E5C1B42DC1200A9D58E /* SecondDishVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondDishVC.h; path = VCs/SecondDishVC.h; sourceTree = "<group>"; };
+		843D7E5D1B42DC1200A9D58E /* SecondDishVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondDishVC.m; path = VCs/SecondDishVC.m; sourceTree = "<group>"; };
+		845C18611B43D36A00172A62 /* FavoriteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoriteVC.h; path = VCs/FavoriteVC.h; sourceTree = "<group>"; };
+		845C18621B43D36A00172A62 /* FavoriteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoriteVC.m; path = VCs/FavoriteVC.m; sourceTree = "<group>"; };
+		845C18641B43D38F00172A62 /* DietVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DietVC.h; path = VCs/DietVC.h; sourceTree = "<group>"; };
+		845C18651B43D38F00172A62 /* DietVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DietVC.m; path = VCs/DietVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +99,10 @@
 		843D7E271B42CAF100A9D58E /* MyRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				845C18601B43D0AA00172A62 /* RevealVC */,
+				843D7E511B42D3D300A9D58E /* VCs */,
 				843D7E2C1B42CAF100A9D58E /* AppDelegate.h */,
 				843D7E2D1B42CAF100A9D58E /* AppDelegate.m */,
-				843D7E2F1B42CAF100A9D58E /* ViewController.h */,
-				843D7E301B42CAF100A9D58E /* ViewController.m */,
-				843D7E321B42CAF100A9D58E /* Main.storyboard */,
-				843D7E351B42CAF100A9D58E /* Images.xcassets */,
-				843D7E371B42CAF100A9D58E /* LaunchScreen.xib */,
 				843D7E281B42CAF100A9D58E /* Supporting Files */,
 			);
 			path = MyRecipes;
@@ -96,6 +111,9 @@
 		843D7E281B42CAF100A9D58E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				843D7E321B42CAF100A9D58E /* Main.storyboard */,
+				843D7E371B42CAF100A9D58E /* LaunchScreen.xib */,
+				843D7E351B42CAF100A9D58E /* Images.xcassets */,
 				843D7E291B42CAF100A9D58E /* Info.plist */,
 				843D7E2A1B42CAF100A9D58E /* main.m */,
 			);
@@ -117,6 +135,42 @@
 				843D7E431B42CAF100A9D58E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843D7E511B42D3D300A9D58E /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				843D7E531B42D9DF00A9D58E /* NavigationMenuVC.h */,
+				843D7E541B42D9DF00A9D58E /* NavigationMenuVC.m */,
+				845C18611B43D36A00172A62 /* FavoriteVC.h */,
+				845C18621B43D36A00172A62 /* FavoriteVC.m */,
+				845C18641B43D38F00172A62 /* DietVC.h */,
+				845C18651B43D38F00172A62 /* DietVC.m */,
+				843D7E521B42D3F100A9D58E /* ResipesVC */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		843D7E521B42D3F100A9D58E /* ResipesVC */ = {
+			isa = PBXGroup;
+			children = (
+				843D7E561B42DBD300A9D58E /* AppetizerVC.h */,
+				843D7E571B42DBD300A9D58E /* AppetizerVC.m */,
+				843D7E591B42DBEB00A9D58E /* DesertVC.h */,
+				843D7E5A1B42DBEB00A9D58E /* DesertVC.m */,
+				843D7E5C1B42DC1200A9D58E /* SecondDishVC.h */,
+				843D7E5D1B42DC1200A9D58E /* SecondDishVC.m */,
+			);
+			name = ResipesVC;
+			sourceTree = "<group>";
+		};
+		845C18601B43D0AA00172A62 /* RevealVC */ = {
+			isa = PBXGroup;
+			children = (
+				843D7E4E1B42CCB000A9D58E /* SWRevealViewController.h */,
+				843D7E4F1B42CCB000A9D58E /* SWRevealViewController.m */,
+			);
+			name = RevealVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +273,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843D7E311B42CAF100A9D58E /* ViewController.m in Sources */,
+				845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */,
 				843D7E2E1B42CAF100A9D58E /* AppDelegate.m in Sources */,
+				843D7E5B1B42DBEB00A9D58E /* DesertVC.m in Sources */,
+				845C18661B43D38F00172A62 /* DietVC.m in Sources */,
+				843D7E551B42D9DF00A9D58E /* NavigationMenuVC.m in Sources */,
+				843D7E581B42DBD300A9D58E /* AppetizerVC.m in Sources */,
 				843D7E2B1B42CAF100A9D58E /* main.m in Sources */,
+				843D7E5E1B42DC1200A9D58E /* SecondDishVC.m in Sources */,
+				843D7E501B42CCB000A9D58E /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +472,7 @@
 				843D7E4A1B42CAF100A9D58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843D7E4B1B42CAF100A9D58E /* Build configuration list for PBXNativeTarget "MyRecipesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +481,7 @@
 				843D7E4D1B42CAF100A9D58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "SWRevealViewController.h"
+#import "RecipesCell.h"
 
-@interface SoupVC : UIViewController
+@interface SoupVC : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *barButton;
 

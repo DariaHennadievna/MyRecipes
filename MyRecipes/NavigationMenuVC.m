@@ -23,6 +23,9 @@
     self.menu = @[@"Appetizer", @"Desert", @"SecondDish", @"Soup", @"Salad", @"Snack", @"Breakfast"];
     [self.tableView registerClass:[UITableViewCell class]
            forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
+    /*self.view.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin |
+    UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin |
+    UIViewAutoresizingFlexibleBottomMargin;*/
    
 }
 

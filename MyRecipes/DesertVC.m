@@ -18,6 +18,8 @@
     [super viewDidLoad];
     
     self.title = @"Десерты";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     _barButton.target = self.revealViewController;
     _barButton.action = @selector(revealToggle:);
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];

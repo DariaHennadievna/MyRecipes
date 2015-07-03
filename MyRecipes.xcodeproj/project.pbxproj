@@ -24,6 +24,9 @@
 		845F0EE81B46C0A600668308 /* SnackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EE71B46C0A600668308 /* SnackVC.m */; };
 		845F0EF71B46C25A00668308 /* NavigationMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EF61B46C25A00668308 /* NavigationMenuVC.m */; };
 		845F0EFA1B46C26600668308 /* DesertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EF91B46C26600668308 /* DesertVC.m */; };
+		848EA4A11B46CFFF00CCFFEC /* RecipesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848EA4A01B46CFFF00CCFFEC /* RecipesCell.m */; };
+		848EA4A41B46DA7400CCFFEC /* profile-image-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 848EA4A21B46DA7400CCFFEC /* profile-image-placeholder.png */; };
+		848EA4A51B46DA7400CCFFEC /* profile-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848EA4A31B46DA7400CCFFEC /* profile-image-placeholder@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,10 @@
 		845F0EF61B46C25A00668308 /* NavigationMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationMenuVC.m; sourceTree = "<group>"; };
 		845F0EF81B46C26600668308 /* DesertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesertVC.h; sourceTree = "<group>"; };
 		845F0EF91B46C26600668308 /* DesertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesertVC.m; sourceTree = "<group>"; };
+		848EA49F1B46CFFF00CCFFEC /* RecipesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipesCell.h; path = Views/RecipesCell.h; sourceTree = "<group>"; };
+		848EA4A01B46CFFF00CCFFEC /* RecipesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipesCell.m; path = Views/RecipesCell.m; sourceTree = "<group>"; };
+		848EA4A21B46DA7400CCFFEC /* profile-image-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder.png"; sourceTree = "<group>"; };
+		848EA4A31B46DA7400CCFFEC /* profile-image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +118,8 @@
 		843D7E271B42CAF100A9D58E /* MyRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				848EA4A61B46E3CB00CCFFEC /* Model */,
+				848EA49D1B46CFB900CCFFEC /* Views */,
 				845C18601B43D0AA00172A62 /* RevealVC */,
 				843D7E511B42D3D300A9D58E /* VCs */,
 				843D7E2C1B42CAF100A9D58E /* AppDelegate.h */,
@@ -125,6 +134,8 @@
 			children = (
 				843D7E321B42CAF100A9D58E /* Main.storyboard */,
 				843D7E371B42CAF100A9D58E /* LaunchScreen.xib */,
+				848EA4A21B46DA7400CCFFEC /* profile-image-placeholder.png */,
+				848EA4A31B46DA7400CCFFEC /* profile-image-placeholder@2x.png */,
 				843D7E351B42CAF100A9D58E /* Images.xcassets */,
 				843D7E291B42CAF100A9D58E /* Info.plist */,
 				843D7E2A1B42CAF100A9D58E /* main.m */,
@@ -191,6 +202,30 @@
 				843D7E4F1B42CCB000A9D58E /* SWRevealViewController.m */,
 			);
 			name = RevealVC;
+			sourceTree = "<group>";
+		};
+		848EA49D1B46CFB900CCFFEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				848EA49E1B46CFC300CCFFEC /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		848EA49E1B46CFC300CCFFEC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				848EA49F1B46CFFF00CCFFEC /* RecipesCell.h */,
+				848EA4A01B46CFFF00CCFFEC /* RecipesCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		848EA4A61B46E3CB00CCFFEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				843D7E341B42CAF100A9D58E /* Main.storyboard in Resources */,
+				848EA4A41B46DA7400CCFFEC /* profile-image-placeholder.png in Resources */,
 				843D7E391B42CAF100A9D58E /* LaunchScreen.xib in Resources */,
 				843D7E361B42CAF100A9D58E /* Images.xcassets in Resources */,
+				848EA4A51B46DA7400CCFFEC /* profile-image-placeholder@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */,
+				848EA4A11B46CFFF00CCFFEC /* RecipesCell.m in Sources */,
 				845F0EFA1B46C26600668308 /* DesertVC.m in Sources */,
 				845F0EF71B46C25A00668308 /* NavigationMenuVC.m in Sources */,
 				843D7E2E1B42CAF100A9D58E /* AppDelegate.m in Sources */,

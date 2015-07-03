@@ -204,9 +204,9 @@
                         <segue destination="Kac-PM-qmJ" kind="custom" identifier="ShowSecondDish" customClass="SWRevealViewControllerSegueSetController" id="ecV-16-Ozp"/>
                         <segue destination="1u2-E9-d1w" kind="custom" identifier="ShowDesert" customClass="SWRevealViewControllerSegueSetController" id="Clf-aT-4y8"/>
                         <segue destination="gKT-Gm-jPO" kind="custom" identifier="ShowSoup" customClass="SWRevealViewControllerSegueSetController" id="135-DN-gan"/>
-                        <segue destination="0qd-kO-Zyf" kind="custom" identifier="ShowSalad" customClass="SWRevealViewControllerSegueSetController" id="lYr-Er-FOb"/>
                         <segue destination="MxS-Tc-Jm5" kind="custom" identifier="ShowSnack" customClass="SWRevealViewControllerSegueSetController" id="Him-a6-XVL"/>
                         <segue destination="nly-US-5vn" kind="custom" identifier="ShowBreakfast" customClass="SWRevealViewControllerSegueSetController" id="Uwo-ZX-PCI"/>
+                        <segue destination="0qd-kO-Zyf" kind="custom" identifier="ShowSalad" customClass="SWRevealViewControllerSegueSetController" id="L5W-PU-9Ui"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLG-3W-q1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -275,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8y-Yi-HJA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1165" y="464"/>
+            <point key="canvasLocation" x="1165" y="489"/>
         </scene>
         <!--Second DishVC-->
         <scene sceneID="rOY-DZ-0EM">
@@ -347,7 +347,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="46D-7A-T3o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1699" y="-157"/>
+            <point key="canvasLocation" x="1699" y="-135"/>
         </scene>
         <!--SnackVC-->
         <scene sceneID="fmx-vR-BM5">

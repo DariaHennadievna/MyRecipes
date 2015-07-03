@@ -18,6 +18,4 @@
 
 @interface NavigationMenuVC: UITableViewController
 
-//@property (nonatomic) NSArray *menu;
-
 @end

@@ -67,6 +67,26 @@
     {
         [self performSegueWithIdentifier:@"ShowSecondDish" sender:self];
     }
+    
+    if ( [myCell.reuseIdentifier isEqualToString:@"Soup"] )
+    {
+        [self performSegueWithIdentifier:@"ShowSoup" sender:self];
+    }
+    
+    if ( [myCell.reuseIdentifier isEqualToString:@"Salad"] )
+    {
+        [self performSegueWithIdentifier:@"ShowSalad" sender:self];
+    }
+    
+    if ( [myCell.reuseIdentifier isEqualToString:@"Snack"] )
+    {
+        [self performSegueWithIdentifier:@"ShowSnack" sender:self];
+    }
+    
+    if ( [myCell.reuseIdentifier isEqualToString:@"Breakfast"] )
+    {
+        [self performSegueWithIdentifier:@"ShowBreakfast" sender:self];
+    }
 
 }
 
@@ -110,6 +130,55 @@
                 [navController setViewControllers:@[secondDishVC] animated:NO];
             }
         }
+        
+        if ([segue.identifier isEqualToString:@"ShowSoup"])
+        {
+            if ([segue.destinationViewController isKindOfClass:[SoupVC class]])
+            {
+                SoupVC *soupVC =
+                (SoupVC *)segue.destinationViewController;
+                
+                UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;
+                [navController setViewControllers:@[soupVC] animated:NO];
+            }
+        }
+        
+        if ([segue.identifier isEqualToString:@"ShowSalad"])
+        {
+            if ([segue.destinationViewController isKindOfClass:[SaladVC class]])
+            {
+                SaladVC *saladVC =
+                (SaladVC *)segue.destinationViewController;
+                
+                UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;
+                [navController setViewControllers:@[saladVC] animated:NO];
+            }
+        }
+        
+        if ([segue.identifier isEqualToString:@"ShowSnack"])
+        {
+            if ([segue.destinationViewController isKindOfClass:[SnackVC class]])
+            {
+                SnackVC *snackVC =
+                (SnackVC *)segue.destinationViewController;
+                
+                UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;
+                [navController setViewControllers:@[snackVC] animated:NO];
+            }
+        }
+        
+        if ([segue.identifier isEqualToString:@"ShowBreakfast"])
+        {
+            if ([segue.destinationViewController isKindOfClass:[BreakfastVC class]])
+            {
+                BreakfastVC *breakfastVC =
+                (BreakfastVC *)segue.destinationViewController;
+                
+                UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;
+                [navController setViewControllers:@[breakfastVC] animated:NO];
+            }
+        }
+
         //{...}
     }
 }

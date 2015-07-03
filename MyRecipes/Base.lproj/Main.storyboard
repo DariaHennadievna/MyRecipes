@@ -102,7 +102,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Закуски" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v9C-nY-cdv">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -117,7 +117,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Десерты" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Meh-rM-R6d">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -131,7 +131,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Вторые блюда" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gfW-P8-BC7">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -145,7 +145,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Супы" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KNf-x5-IQc">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -159,7 +159,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Салаты" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6M8-Cf-RS2">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -173,7 +173,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Перекусы" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t5j-en-H9T">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -187,7 +187,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Завтраки" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k29-v4-hfY">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -203,6 +203,10 @@
                         <segue destination="KlI-zJ-R0o" kind="custom" identifier="ShowAppetizer" customClass="SWRevealViewControllerSegueSetController" id="XaC-Qn-gAi"/>
                         <segue destination="Kac-PM-qmJ" kind="custom" identifier="ShowSecondDish" customClass="SWRevealViewControllerSegueSetController" id="ecV-16-Ozp"/>
                         <segue destination="1u2-E9-d1w" kind="custom" identifier="ShowDesert" customClass="SWRevealViewControllerSegueSetController" id="Clf-aT-4y8"/>
+                        <segue destination="gKT-Gm-jPO" kind="custom" identifier="ShowSoup" customClass="SWRevealViewControllerSegueSetController" id="135-DN-gan"/>
+                        <segue destination="0qd-kO-Zyf" kind="custom" identifier="ShowSalad" customClass="SWRevealViewControllerSegueSetController" id="lYr-Er-FOb"/>
+                        <segue destination="MxS-Tc-Jm5" kind="custom" identifier="ShowSnack" customClass="SWRevealViewControllerSegueSetController" id="Him-a6-XVL"/>
+                        <segue destination="nly-US-5vn" kind="custom" identifier="ShowBreakfast" customClass="SWRevealViewControllerSegueSetController" id="Uwo-ZX-PCI"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLG-3W-q1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -247,7 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hNI-ib-44G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1017" y="-743"/>
+            <point key="canvasLocation" x="1165" y="-791"/>
         </scene>
         <!--AppetizerVC-->
         <scene sceneID="RPf-zH-aJH">
@@ -271,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8y-Yi-HJA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1017" y="512"/>
+            <point key="canvasLocation" x="1165" y="464"/>
         </scene>
         <!--Second DishVC-->
         <scene sceneID="rOY-DZ-0EM">
@@ -295,7 +299,103 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5Q-q0-Rxe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1017" y="-115"/>
+            <point key="canvasLocation" x="1165" y="-163"/>
+        </scene>
+        <!--SoupVC-->
+        <scene sceneID="sVF-Bf-HOh">
+            <objects>
+                <viewController id="gKT-Gm-jPO" customClass="SoupVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yMu-61-AbB"/>
+                        <viewControllerLayoutGuide type="bottom" id="4VL-AM-wCt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vYn-2A-3Xf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="I4A-gC-Auo">
+                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="J5Y-LK-s73"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="barButton" destination="J5Y-LK-s73" id="7Jl-va-eOH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eUh-DD-gWn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1699" y="-791"/>
+        </scene>
+        <!--SaladVC-->
+        <scene sceneID="v9U-jU-2GG">
+            <objects>
+                <viewController id="0qd-kO-Zyf" customClass="SaladVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PCb-ln-Z1d"/>
+                        <viewControllerLayoutGuide type="bottom" id="j4w-xB-EFH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hVX-uX-DYz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="x7y-ij-6ak">
+                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="q9o-BF-O69"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="barButton" destination="q9o-BF-O69" id="hp8-5C-Hte"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="46D-7A-T3o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1699" y="-157"/>
+        </scene>
+        <!--SnackVC-->
+        <scene sceneID="fmx-vR-BM5">
+            <objects>
+                <viewController id="MxS-Tc-Jm5" customClass="SnackVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uPa-n0-79C"/>
+                        <viewControllerLayoutGuide type="bottom" id="6wO-LG-cHn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bME-jS-Jv1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VsM-mx-kUZ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="jNn-JO-D8s"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="barButton" destination="jNn-JO-D8s" id="2av-oQ-V7R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="56m-10-V2q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1699" y="464"/>
+        </scene>
+        <!--BreakfastVC-->
+        <scene sceneID="MFz-AN-xif">
+            <objects>
+                <viewController id="nly-US-5vn" customClass="BreakfastVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TVV-Uh-wFs"/>
+                        <viewControllerLayoutGuide type="bottom" id="fmR-xA-8ob"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YNq-dV-NXq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X1t-7f-Vuz">
+                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="dkg-MH-Wnj"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="barButton" destination="dkg-MH-Wnj" id="Y0m-c4-LUX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BiZ-rl-a4D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1699" y="1096"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

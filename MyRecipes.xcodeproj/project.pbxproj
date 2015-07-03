@@ -14,12 +14,16 @@
 		843D7E391B42CAF100A9D58E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843D7E371B42CAF100A9D58E /* LaunchScreen.xib */; };
 		843D7E451B42CAF100A9D58E /* MyRecipesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E441B42CAF100A9D58E /* MyRecipesTests.m */; };
 		843D7E501B42CCB000A9D58E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E4F1B42CCB000A9D58E /* SWRevealViewController.m */; };
-		843D7E551B42D9DF00A9D58E /* NavigationMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E541B42D9DF00A9D58E /* NavigationMenuVC.m */; };
 		843D7E581B42DBD300A9D58E /* AppetizerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E571B42DBD300A9D58E /* AppetizerVC.m */; };
-		843D7E5B1B42DBEB00A9D58E /* DesertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E5A1B42DBEB00A9D58E /* DesertVC.m */; };
 		843D7E5E1B42DC1200A9D58E /* SecondDishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E5D1B42DC1200A9D58E /* SecondDishVC.m */; };
+		844D90091B46C4440015FD33 /* BreakfastVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D90081B46C4440015FD33 /* BreakfastVC.m */; };
 		845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C18621B43D36A00172A62 /* FavoriteVC.m */; };
 		845C18661B43D38F00172A62 /* DietVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C18651B43D38F00172A62 /* DietVC.m */; };
+		845F0EE21B46C04C00668308 /* SaladVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EE11B46C04C00668308 /* SaladVC.m */; };
+		845F0EE51B46C06500668308 /* SoupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EE41B46C06500668308 /* SoupVC.m */; };
+		845F0EE81B46C0A600668308 /* SnackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EE71B46C0A600668308 /* SnackVC.m */; };
+		845F0EF71B46C25A00668308 /* NavigationMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EF61B46C25A00668308 /* NavigationMenuVC.m */; };
+		845F0EFA1B46C26600668308 /* DesertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EF91B46C26600668308 /* DesertVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,18 +50,26 @@
 		843D7E441B42CAF100A9D58E /* MyRecipesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRecipesTests.m; sourceTree = "<group>"; };
 		843D7E4E1B42CCB000A9D58E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		843D7E4F1B42CCB000A9D58E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		843D7E531B42D9DF00A9D58E /* NavigationMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationMenuVC.h; sourceTree = "<group>"; };
-		843D7E541B42D9DF00A9D58E /* NavigationMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationMenuVC.m; sourceTree = "<group>"; };
 		843D7E561B42DBD300A9D58E /* AppetizerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppetizerVC.h; path = VCs/AppetizerVC.h; sourceTree = "<group>"; };
 		843D7E571B42DBD300A9D58E /* AppetizerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppetizerVC.m; path = VCs/AppetizerVC.m; sourceTree = "<group>"; };
-		843D7E591B42DBEB00A9D58E /* DesertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesertVC.h; sourceTree = "<group>"; };
-		843D7E5A1B42DBEB00A9D58E /* DesertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesertVC.m; sourceTree = "<group>"; };
 		843D7E5C1B42DC1200A9D58E /* SecondDishVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondDishVC.h; path = VCs/SecondDishVC.h; sourceTree = "<group>"; };
 		843D7E5D1B42DC1200A9D58E /* SecondDishVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondDishVC.m; path = VCs/SecondDishVC.m; sourceTree = "<group>"; };
+		844D90071B46C4440015FD33 /* BreakfastVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BreakfastVC.h; path = VCs/BreakfastVC.h; sourceTree = "<group>"; };
+		844D90081B46C4440015FD33 /* BreakfastVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BreakfastVC.m; path = VCs/BreakfastVC.m; sourceTree = "<group>"; };
 		845C18611B43D36A00172A62 /* FavoriteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoriteVC.h; path = VCs/FavoriteVC.h; sourceTree = "<group>"; };
 		845C18621B43D36A00172A62 /* FavoriteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoriteVC.m; path = VCs/FavoriteVC.m; sourceTree = "<group>"; };
 		845C18641B43D38F00172A62 /* DietVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DietVC.h; path = VCs/DietVC.h; sourceTree = "<group>"; };
 		845C18651B43D38F00172A62 /* DietVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DietVC.m; path = VCs/DietVC.m; sourceTree = "<group>"; };
+		845F0EE01B46C04C00668308 /* SaladVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaladVC.h; path = VCs/SaladVC.h; sourceTree = "<group>"; };
+		845F0EE11B46C04C00668308 /* SaladVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaladVC.m; path = VCs/SaladVC.m; sourceTree = "<group>"; };
+		845F0EE31B46C06500668308 /* SoupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoupVC.h; path = VCs/SoupVC.h; sourceTree = "<group>"; };
+		845F0EE41B46C06500668308 /* SoupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoupVC.m; path = VCs/SoupVC.m; sourceTree = "<group>"; };
+		845F0EE61B46C0A600668308 /* SnackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnackVC.h; path = VCs/SnackVC.h; sourceTree = "<group>"; };
+		845F0EE71B46C0A600668308 /* SnackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnackVC.m; path = VCs/SnackVC.m; sourceTree = "<group>"; };
+		845F0EF51B46C25A00668308 /* NavigationMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationMenuVC.h; sourceTree = "<group>"; };
+		845F0EF61B46C25A00668308 /* NavigationMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationMenuVC.m; sourceTree = "<group>"; };
+		845F0EF81B46C26600668308 /* DesertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesertVC.h; sourceTree = "<group>"; };
+		845F0EF91B46C26600668308 /* DesertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesertVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +152,8 @@
 		843D7E511B42D3D300A9D58E /* VCs */ = {
 			isa = PBXGroup;
 			children = (
-				843D7E531B42D9DF00A9D58E /* NavigationMenuVC.h */,
-				843D7E541B42D9DF00A9D58E /* NavigationMenuVC.m */,
+				845F0EF51B46C25A00668308 /* NavigationMenuVC.h */,
+				845F0EF61B46C25A00668308 /* NavigationMenuVC.m */,
 				845C18611B43D36A00172A62 /* FavoriteVC.h */,
 				845C18621B43D36A00172A62 /* FavoriteVC.m */,
 				845C18641B43D38F00172A62 /* DietVC.h */,
@@ -154,12 +166,20 @@
 		843D7E521B42D3F100A9D58E /* ResipesVC */ = {
 			isa = PBXGroup;
 			children = (
+				845F0EF81B46C26600668308 /* DesertVC.h */,
+				845F0EF91B46C26600668308 /* DesertVC.m */,
 				843D7E561B42DBD300A9D58E /* AppetizerVC.h */,
 				843D7E571B42DBD300A9D58E /* AppetizerVC.m */,
-				843D7E591B42DBEB00A9D58E /* DesertVC.h */,
-				843D7E5A1B42DBEB00A9D58E /* DesertVC.m */,
 				843D7E5C1B42DC1200A9D58E /* SecondDishVC.h */,
 				843D7E5D1B42DC1200A9D58E /* SecondDishVC.m */,
+				845F0EE31B46C06500668308 /* SoupVC.h */,
+				845F0EE41B46C06500668308 /* SoupVC.m */,
+				845F0EE01B46C04C00668308 /* SaladVC.h */,
+				845F0EE11B46C04C00668308 /* SaladVC.m */,
+				845F0EE61B46C0A600668308 /* SnackVC.h */,
+				845F0EE71B46C0A600668308 /* SnackVC.m */,
+				844D90071B46C4440015FD33 /* BreakfastVC.h */,
+				844D90081B46C4440015FD33 /* BreakfastVC.m */,
 			);
 			name = ResipesVC;
 			sourceTree = "<group>";
@@ -274,14 +294,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */,
+				845F0EFA1B46C26600668308 /* DesertVC.m in Sources */,
+				845F0EF71B46C25A00668308 /* NavigationMenuVC.m in Sources */,
 				843D7E2E1B42CAF100A9D58E /* AppDelegate.m in Sources */,
-				843D7E5B1B42DBEB00A9D58E /* DesertVC.m in Sources */,
+				845F0EE21B46C04C00668308 /* SaladVC.m in Sources */,
 				845C18661B43D38F00172A62 /* DietVC.m in Sources */,
-				843D7E551B42D9DF00A9D58E /* NavigationMenuVC.m in Sources */,
+				845F0EE81B46C0A600668308 /* SnackVC.m in Sources */,
 				843D7E581B42DBD300A9D58E /* AppetizerVC.m in Sources */,
 				843D7E2B1B42CAF100A9D58E /* main.m in Sources */,
 				843D7E5E1B42DC1200A9D58E /* SecondDishVC.m in Sources */,
 				843D7E501B42CCB000A9D58E /* SWRevealViewController.m in Sources */,
+				845F0EE51B46C06500668308 /* SoupVC.m in Sources */,
+				844D90091B46C4440015FD33 /* BreakfastVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

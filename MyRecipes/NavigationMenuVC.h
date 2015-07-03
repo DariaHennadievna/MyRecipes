@@ -11,8 +11,13 @@
 #import "AppetizerVC.h"
 #import "DesertVC.h"
 #import "SecondDishVC.h"
+#import "SoupVC.h"
+#import "SaladVC.h"
+#import "SnackVC.h"
+#import "BreakfastVC.h"
 
+@interface NavigationMenuVC: UITableViewController
 
-@interface NavigationMenuVC : UITableViewController
+//@property (nonatomic) NSArray *menu;
 
 @end

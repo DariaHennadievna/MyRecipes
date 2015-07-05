@@ -386,6 +386,9 @@
                             <outlet property="delegate" destination="sEq-et-wyE" id="HNO-uT-fuj"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="barButton" destination="BJA-pr-H27" id="M0c-Ts-HMf"/>
+                    </connections>
                 </tableViewController>
                 <navigationItem id="8nY-st-FDN">
                     <barButtonItem key="leftBarButtonItem" systemItem="compose" id="BJA-pr-H27"/>

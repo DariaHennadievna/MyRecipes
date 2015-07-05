@@ -51,6 +51,7 @@
     return cell;
 }
 
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *myCell = (UITableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
@@ -155,6 +156,14 @@
                 
                 UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;
                 [navController setViewControllers:@[saladVC] animated:NO];
+            }
+            if ([segue.destinationViewController isKindOfClass:[SaladTVC class]])
+            {
+                SaladTVC *saladTVC =
+                (SaladTVC *)segue.destinationViewController;
+                
+                UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;
+                [navController setViewControllers:@[saladTVC] animated:NO];
             }
         }
         

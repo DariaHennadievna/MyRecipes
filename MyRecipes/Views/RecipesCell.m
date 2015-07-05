@@ -8,6 +8,8 @@
 
 #import "RecipesCell.h"
 
+
+
 @implementation RecipesCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
@@ -16,7 +18,10 @@
     if (self)
     {
         //self.backgroundColor = [[UIColor greenColor] colorWithAlphaComponent:0.2f];
+        //[self setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
+        self.translatesAutoresizingMaskIntoConstraints = NO;
         [self configurCell];
+        //[self updateFonts];
     }
     return self;
 }
@@ -50,7 +55,29 @@
     self.recipesLabel.textColor = [UIColor blackColor];
     self.recipesLabel.numberOfLines = 0;
     [self.contentView addSubview:self.recipesLabel];
+   
     
+//    NSDictionary *viewDict = NSDictionaryOfVariableBindings(_dishImageView, _titleLabel, _recipesLabel);
+//    NSDictionary *metricDict = @{@"sideBuffer" : @10, @"verticalBuffer" : @5,  @"imageSize" : @50, @"betweenElementsBuffer" : @10};
+//    
+//    // Horizontal constraints
+//    [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-sideBuffer-[_dishImageView(imageSize)]-betweenElementsBuffer-[_titleLabel]-sideBuffer-|" options:0 metrics:metricDict views:viewDict]];
+//    [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-sideBuffer-[_recipesLabel]-sideBuffer-|" options:0 metrics:metricDict views:viewDict]];
+//    
+//    // Vertical constraints
+//    [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-verticalBuffer-[_dishImageView(imageSize)]" options:0 metrics:metricDict views:viewDict]];
+//    
+//    [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-verticalBuffer-[_titleLabel]" options:0 metrics:metricDict views:viewDict]];
+//    
+//    [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[_recipesLabel]-verticalBuffer-|" options:0 metrics:metricDict views:viewDict]];
+//    
+//    [self.contentView addConstraint:[NSLayoutConstraint constraintWithItem:self.recipesLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.dishImageView attribute:NSLayoutAttributeBottom multiplier:1 constant:5]];
+    
+}
+
+
+- (void)updateConstraintsIfNeeded
+{
     NSDictionary *viewDict = NSDictionaryOfVariableBindings(_dishImageView, _titleLabel, _recipesLabel);
     NSDictionary *metricDict = @{@"sideBuffer" : @10, @"verticalBuffer" : @5,  @"imageSize" : @50, @"betweenElementsBuffer" : @10};
     
@@ -66,7 +93,16 @@
     [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[_recipesLabel]-verticalBuffer-|" options:0 metrics:metricDict views:viewDict]];
     
     [self.contentView addConstraint:[NSLayoutConstraint constraintWithItem:self.recipesLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.dishImageView attribute:NSLayoutAttributeBottom multiplier:1 constant:5]];
- 
+}
+
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    
+    NSLog(@"layoutSubviews");
+    [self.contentView setNeedsLayout];
+    [self.contentView layoutIfNeeded];
+
 }
 
 

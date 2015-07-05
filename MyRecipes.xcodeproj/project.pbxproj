@@ -16,6 +16,8 @@
 		843D7E501B42CCB000A9D58E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E4F1B42CCB000A9D58E /* SWRevealViewController.m */; };
 		843D7E581B42DBD300A9D58E /* AppetizerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E571B42DBD300A9D58E /* AppetizerVC.m */; };
 		843D7E5E1B42DC1200A9D58E /* SecondDishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D7E5D1B42DC1200A9D58E /* SecondDishVC.m */; };
+		84459FEE1B49937400230DC8 /* SaladTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84459FED1B49937400230DC8 /* SaladTVC.m */; };
+		84459FF91B49A1E000230DC8 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84459FF81B49A1E000230DC8 /* TableViewCell.m */; };
 		844D90091B46C4440015FD33 /* BreakfastVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D90081B46C4440015FD33 /* BreakfastVC.m */; };
 		845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C18621B43D36A00172A62 /* FavoriteVC.m */; };
 		845C18661B43D38F00172A62 /* DietVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C18651B43D38F00172A62 /* DietVC.m */; };
@@ -57,6 +59,10 @@
 		843D7E571B42DBD300A9D58E /* AppetizerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppetizerVC.m; path = VCs/AppetizerVC.m; sourceTree = "<group>"; };
 		843D7E5C1B42DC1200A9D58E /* SecondDishVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondDishVC.h; path = VCs/SecondDishVC.h; sourceTree = "<group>"; };
 		843D7E5D1B42DC1200A9D58E /* SecondDishVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondDishVC.m; path = VCs/SecondDishVC.m; sourceTree = "<group>"; };
+		84459FEC1B49937400230DC8 /* SaladTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaladTVC.h; path = VCs/SaladTVC.h; sourceTree = "<group>"; };
+		84459FED1B49937400230DC8 /* SaladTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaladTVC.m; path = VCs/SaladTVC.m; sourceTree = "<group>"; };
+		84459FF71B49A1E000230DC8 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = Views/TableViewCell.h; sourceTree = "<group>"; };
+		84459FF81B49A1E000230DC8 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = Views/TableViewCell.m; sourceTree = "<group>"; };
 		844D90071B46C4440015FD33 /* BreakfastVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BreakfastVC.h; path = VCs/BreakfastVC.h; sourceTree = "<group>"; };
 		844D90081B46C4440015FD33 /* BreakfastVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BreakfastVC.m; path = VCs/BreakfastVC.m; sourceTree = "<group>"; };
 		845C18611B43D36A00172A62 /* FavoriteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoriteVC.h; path = VCs/FavoriteVC.h; sourceTree = "<group>"; };
@@ -191,6 +197,8 @@
 				845F0EE71B46C0A600668308 /* SnackVC.m */,
 				844D90071B46C4440015FD33 /* BreakfastVC.h */,
 				844D90081B46C4440015FD33 /* BreakfastVC.m */,
+				84459FEC1B49937400230DC8 /* SaladTVC.h */,
+				84459FED1B49937400230DC8 /* SaladTVC.m */,
 			);
 			name = ResipesVC;
 			sourceTree = "<group>";
@@ -217,6 +225,8 @@
 			children = (
 				848EA49F1B46CFFF00CCFFEC /* RecipesCell.h */,
 				848EA4A01B46CFFF00CCFFEC /* RecipesCell.m */,
+				84459FF71B49A1E000230DC8 /* TableViewCell.h */,
+				84459FF81B49A1E000230DC8 /* TableViewCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -333,6 +343,7 @@
 				845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */,
 				848EA4A11B46CFFF00CCFFEC /* RecipesCell.m in Sources */,
 				845F0EFA1B46C26600668308 /* DesertVC.m in Sources */,
+				84459FEE1B49937400230DC8 /* SaladTVC.m in Sources */,
 				845F0EF71B46C25A00668308 /* NavigationMenuVC.m in Sources */,
 				843D7E2E1B42CAF100A9D58E /* AppDelegate.m in Sources */,
 				845F0EE21B46C04C00668308 /* SaladVC.m in Sources */,
@@ -342,6 +353,7 @@
 				843D7E2B1B42CAF100A9D58E /* main.m in Sources */,
 				843D7E5E1B42DC1200A9D58E /* SecondDishVC.m in Sources */,
 				843D7E501B42CCB000A9D58E /* SWRevealViewController.m in Sources */,
+				84459FF91B49A1E000230DC8 /* TableViewCell.m in Sources */,
 				845F0EE51B46C06500668308 /* SoupVC.m in Sources */,
 				844D90091B46C4440015FD33 /* BreakfastVC.m in Sources */,
 			);

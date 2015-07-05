@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gcb-xR-uNX">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Диеты-->
@@ -9,8 +10,8 @@
             <objects>
                 <viewController id="YuG-lj-7wg" customClass="DietVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="djf-XF-GaH"/>
-                        <viewControllerLayoutGuide type="bottom" id="hbi-41-VoM"/>
+                        <viewControllerLayoutGuide type="top" id="qM5-dF-I5y"/>
+                        <viewControllerLayoutGuide type="bottom" id="YBT-Tf-OaD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qqX-7T-Nin">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -28,8 +29,8 @@
             <objects>
                 <viewController id="a2B-Nh-edp" customClass="FavoriteVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="O2E-3T-U5X"/>
-                        <viewControllerLayoutGuide type="bottom" id="Uu7-pv-MFx"/>
+                        <viewControllerLayoutGuide type="top" id="rca-dF-gFv"/>
+                        <viewControllerLayoutGuide type="bottom" id="iJ6-np-elg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2VN-7K-HJh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -67,8 +68,8 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="s32-5f-Owv"/>
+                        <viewControllerLayoutGuide type="bottom" id="N4Y-LI-Qxy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -206,7 +207,7 @@
                         <segue destination="gKT-Gm-jPO" kind="custom" identifier="ShowSoup" customClass="SWRevealViewControllerSegueSetController" id="135-DN-gan"/>
                         <segue destination="MxS-Tc-Jm5" kind="custom" identifier="ShowSnack" customClass="SWRevealViewControllerSegueSetController" id="Him-a6-XVL"/>
                         <segue destination="nly-US-5vn" kind="custom" identifier="ShowBreakfast" customClass="SWRevealViewControllerSegueSetController" id="Uwo-ZX-PCI"/>
-                        <segue destination="0qd-kO-Zyf" kind="custom" identifier="ShowSalad" customClass="SWRevealViewControllerSegueSetController" id="L5W-PU-9Ui"/>
+                        <segue destination="sEq-et-wyE" kind="custom" identifier="ShowSalad" customClass="SWRevealViewControllerSegueSetController" id="qjX-LK-H9e"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLG-3W-q1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -234,8 +235,8 @@
             <objects>
                 <viewController id="1u2-E9-d1w" customClass="DesertVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qXI-Z9-dyg"/>
-                        <viewControllerLayoutGuide type="bottom" id="UOb-Cu-h4P"/>
+                        <viewControllerLayoutGuide type="top" id="X0l-9U-VVb"/>
+                        <viewControllerLayoutGuide type="bottom" id="POZ-7X-0Sw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1g3-WG-HaX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -258,8 +259,8 @@
             <objects>
                 <viewController id="KlI-zJ-R0o" customClass="AppetizerVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="k8V-X4-Gac"/>
-                        <viewControllerLayoutGuide type="bottom" id="EsX-9y-rny"/>
+                        <viewControllerLayoutGuide type="top" id="Qlr-cV-9ea"/>
+                        <viewControllerLayoutGuide type="bottom" id="SGu-DU-O1c"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dkc-jC-2KG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -282,8 +283,8 @@
             <objects>
                 <viewController id="Kac-PM-qmJ" customClass="SecondDishVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OJZ-am-qZW"/>
-                        <viewControllerLayoutGuide type="bottom" id="PHm-7J-KVg"/>
+                        <viewControllerLayoutGuide type="top" id="bbn-fU-JLO"/>
+                        <viewControllerLayoutGuide type="bottom" id="fBm-Tq-JD7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="y7W-6a-nVZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -306,8 +307,8 @@
             <objects>
                 <viewController id="gKT-Gm-jPO" customClass="SoupVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yMu-61-AbB"/>
-                        <viewControllerLayoutGuide type="bottom" id="4VL-AM-wCt"/>
+                        <viewControllerLayoutGuide type="top" id="Zwe-Ci-A80"/>
+                        <viewControllerLayoutGuide type="bottom" id="QCb-NG-sXX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vYn-2A-3Xf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -325,13 +326,81 @@
             </objects>
             <point key="canvasLocation" x="1699" y="-791"/>
         </scene>
+        <!--SaladTVC-->
+        <scene sceneID="Y8i-Uh-XE6">
+            <objects>
+                <tableViewController id="sEq-et-wyE" customClass="SaladTVC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="111" sectionHeaderHeight="22" sectionFooterHeight="22" id="1fh-kL-1yt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" rowHeight="111" id="bcW-eF-qRJ" customClass="TableViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bcW-eF-qRJ" id="1df-Fc-HrV">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pbm-6n-YFX">
+                                            <rect key="frame" x="8" y="8" width="60" height="60"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="60" id="TNB-qr-jsI"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bre-7l-exL">
+                                            <rect key="frame" x="76" y="8" width="236" height="21"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKp-fi-2BU">
+                                            <rect key="frame" x="8" y="76" width="304" height="21"/>
+                                            <color key="backgroundColor" red="1" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="bre-7l-exL" firstAttribute="leading" secondItem="pbm-6n-YFX" secondAttribute="trailing" constant="8" id="8CG-Qa-4p1"/>
+                                        <constraint firstItem="pbm-6n-YFX" firstAttribute="leading" secondItem="1df-Fc-HrV" secondAttribute="leadingMargin" id="944-tF-GeG"/>
+                                        <constraint firstItem="bre-7l-exL" firstAttribute="top" secondItem="pbm-6n-YFX" secondAttribute="top" id="9TB-eR-JqC"/>
+                                        <constraint firstItem="TKp-fi-2BU" firstAttribute="trailing" secondItem="1df-Fc-HrV" secondAttribute="trailingMargin" id="B4Z-FR-5vT"/>
+                                        <constraint firstItem="bre-7l-exL" firstAttribute="trailing" secondItem="1df-Fc-HrV" secondAttribute="trailingMargin" id="FG8-kd-P5u"/>
+                                        <constraint firstItem="pbm-6n-YFX" firstAttribute="top" secondItem="1df-Fc-HrV" secondAttribute="topMargin" id="KFS-PW-Rhr"/>
+                                        <constraint firstItem="TKp-fi-2BU" firstAttribute="top" secondItem="pbm-6n-YFX" secondAttribute="bottom" constant="8" symbolic="YES" id="Lf0-5Q-arv"/>
+                                        <constraint firstItem="TKp-fi-2BU" firstAttribute="leading" secondItem="1df-Fc-HrV" secondAttribute="leadingMargin" id="rhw-X8-NOL"/>
+                                        <constraint firstItem="bre-7l-exL" firstAttribute="leading" secondItem="1df-Fc-HrV" secondAttribute="leadingMargin" constant="68" id="whI-Dg-cie"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dishImageView" destination="pbm-6n-YFX" id="20r-uv-5Q5"/>
+                                    <outlet property="recipesLabel" destination="TKp-fi-2BU" id="ZA2-Rx-XaO"/>
+                                    <outlet property="titleLabel" destination="bre-7l-exL" id="LM5-kn-Qgf"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="sEq-et-wyE" id="5ob-dd-seB"/>
+                            <outlet property="delegate" destination="sEq-et-wyE" id="HNO-uT-fuj"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <navigationItem id="8nY-st-FDN">
+                    <barButtonItem key="leftBarButtonItem" systemItem="compose" id="BJA-pr-H27"/>
+                </navigationItem>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r8u-7G-csA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1695" y="-190"/>
+        </scene>
         <!--SaladVC-->
         <scene sceneID="v9U-jU-2GG">
             <objects>
                 <viewController id="0qd-kO-Zyf" customClass="SaladVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PCb-ln-Z1d"/>
-                        <viewControllerLayoutGuide type="bottom" id="j4w-xB-EFH"/>
+                        <viewControllerLayoutGuide type="top" id="cd8-Uf-m4p"/>
+                        <viewControllerLayoutGuide type="bottom" id="5yq-Pe-Gqo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hVX-uX-DYz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -347,15 +416,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="46D-7A-T3o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1699" y="-135"/>
+            <point key="canvasLocation" x="2189" y="-175"/>
         </scene>
         <!--SnackVC-->
         <scene sceneID="fmx-vR-BM5">
             <objects>
                 <viewController id="MxS-Tc-Jm5" customClass="SnackVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uPa-n0-79C"/>
-                        <viewControllerLayoutGuide type="bottom" id="6wO-LG-cHn"/>
+                        <viewControllerLayoutGuide type="top" id="Y5E-gi-Sb3"/>
+                        <viewControllerLayoutGuide type="bottom" id="WVh-mo-wIl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bME-jS-Jv1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -378,8 +447,8 @@
             <objects>
                 <viewController id="nly-US-5vn" customClass="BreakfastVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TVV-Uh-wFs"/>
-                        <viewControllerLayoutGuide type="bottom" id="fmR-xA-8ob"/>
+                        <viewControllerLayoutGuide type="top" id="urO-aA-8xw"/>
+                        <viewControllerLayoutGuide type="bottom" id="tot-cI-vAw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YNq-dV-NXq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>

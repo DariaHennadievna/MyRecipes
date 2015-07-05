@@ -1,67 +1,48 @@
 //
-//  SoupVC.m
+//  SaladTVCTableViewController.m
 //  MyRecipes
 //
-//  Created by Admin on 03.07.15.
+//  Created by Admin on 05.07.15.
 //  Copyright (c) 2015 Admin. All rights reserved.
 //
 
-#import "SoupVC.h"
+#import "SaladTVC.h"
 
-@interface SoupVC ()
+@interface SaladTVC ()
 
-@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) TableViewCell *customCell;
 
 @end
 
-@implementation SoupVC
+@implementation SaladTVC
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"Супы";
-    [self.view addSubview:self.tableView];
-    
-    [self.tableView registerClass:[RecipesCell class] forCellReuseIdentifier:NSStringFromClass([RecipesCell class])];
-    //self.tableView
-    
-    self.tableView.estimatedRowHeight = UITableViewAutomaticDimension;
-    
-    self.tableView.allowsSelection = NO;
-    
-    self.tableView.autoresizingMask =  UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-
+    //[self.tableView registerClass:[TableViewCell class] forCellReuseIdentifier:NSStringFromClass([TableViewCell class])];
     
     _barButton.target = self.revealViewController;
     _barButton.action = @selector(revealToggle:);
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 }
 
-#pragma mark - Views
+#pragma mark - Table view data source
 
-- (UITableView *)tableView
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    if (!_tableView)
-    {
-        _tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
-        _tableView.dataSource = self;
-        _tableView.delegate = self;
-    }
-    
-    return _tableView;
+    return 1;
 }
-
-#pragma mark - Table View Data Sourse
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+
     return 20;
 }
 
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    RecipesCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([RecipesCell class]) forIndexPath:indexPath];
+    TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TableViewCell" forIndexPath:indexPath];
     
     cell.dishImageView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"profile-image-placeholder.png"]];
     
@@ -74,15 +55,35 @@
     return cell;
 }
 
-#pragma mark - Table View Delegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+/*
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (!self.customCell)
+    {
+        self.customCell = [[TableViewCell alloc] init];
+    }
+    
+    //NSArray *array = self.customCell.contentView.constraints;
+    //NSLog(@"%@", array);
+    
+    NSLog(@"%f", self.customCell.bounds.size.height);
+    
+    self.customCell.recipesLabel.text = [self randomLorumIpsum];
+    
+    CGFloat height = [self.customCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
+    NSLog(@"%f", height);
+    
+    [self.customCell layoutIfNeeded];
+    height = [self.customCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
+    NSLog(@"%f", height);
+    
+    return (height);
+    
 }
+*/
 
 - (NSString *)randomLorumIpsum
-{    
+{
     NSString *lorumIpsum = @"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non quam ac massa viverra semper. Maecenas mattis justo ac augue volutpat congue. Maecenas laoreet, nulla eu faucibus gravida, felis orci dictum risus, sed sodales sem eros eget risus. Morbi imperdiet sed diam et sodales. Vestibulum ut est id mauris ultrices gravida. Nulla malesuada metus ut erat malesuada, vitae ornare neque semper. Aenean a commodo justo, vel placerat odio. Curabitur vitae consequat tortor. Aenean eu magna ante. Integer tristique elit ac augue laoreet, eget pulvinar lacus dictum. Cras eleifend lacus eget pharetra elementum. Etiam fermentum eu felis eu tristique. Integer eu purus vitae turpis blandit consectetur. Nulla facilisi. Praesent bibendum massa eu metus pulvinar, quis tristique nunc commodo. Ut varius aliquam elit, a tincidunt elit aliquam non. Nunc ac leo purus. Proin condimentum placerat ligula, at tristique neque scelerisque ut. Suspendisse ut congue enim. Integer id sem nisl. Nam dignissim, lectus et dictum sollicitudin, libero augue ullamcorper justo, nec consectetur dolor arcu sed justo. Proin rutrum pharetra lectus, vel gravida ante venenatis sed. Mauris lacinia urna vehicula felis aliquet venenatis. Suspendisse non pretium sapien. Proin id dolor ultricies, dictum augue non, euismod ante. Vivamus et luctus augue, a luctus mi. Maecenas sit amet felis in magna vestibulum viverra vel ut est. Suspendisse potenti. Morbi nec odio pretium lacus laoreet volutpat sit amet at ipsum. Etiam pretium purus vitae tortor auctor, quis cursus metus vehicula. Integer ultricies facilisis arcu, non congue orci pharetra quis. Vivamus pulvinar ligula neque, et vehicula ipsum euismod quis.";
     
     
@@ -104,5 +105,6 @@
     
     return [NSString stringWithFormat:@"%@!!!", [title componentsJoinedByString:@" "]];
 }
+
 
 @end

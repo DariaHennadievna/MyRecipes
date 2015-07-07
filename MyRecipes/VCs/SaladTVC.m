@@ -17,9 +17,7 @@
 @implementation SaladTVC
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    //[self.tableView registerClass:[TableViewCell class] forCellReuseIdentifier:NSStringFromClass([TableViewCell class])];
+    [super viewDidLoad];    
     
     _barButton.target = self.revealViewController;
     _barButton.action = @selector(revealToggle:);
@@ -55,32 +53,6 @@
     return cell;
 }
 
-/*
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (!self.customCell)
-    {
-        self.customCell = [[TableViewCell alloc] init];
-    }
-    
-    //NSArray *array = self.customCell.contentView.constraints;
-    //NSLog(@"%@", array);
-    
-    NSLog(@"%f", self.customCell.bounds.size.height);
-    
-    self.customCell.recipesLabel.text = [self randomLorumIpsum];
-    
-    CGFloat height = [self.customCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
-    NSLog(@"%f", height);
-    
-    [self.customCell layoutIfNeeded];
-    height = [self.customCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
-    NSLog(@"%f", height);
-    
-    return (height);
-    
-}
-*/
 
 - (NSString *)randomLorumIpsum
 {

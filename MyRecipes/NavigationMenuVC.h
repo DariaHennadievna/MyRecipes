@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "SWRevealViewController.h"
-#import "AppetizerVC.h"
-#import "DesertVC.h"
-#import "SecondDishVC.h"
-#import "SoupVC.h"
-#import "SaladVC.h"
+#import "AppetizerTVC.h"
+#import "DesertTVC.h"
+#import "SecondDishTVC.h"
+#import "SoupTVC.h"
 #import "SaladTVC.h"
 #import "SnackVC.h"
 #import "BreakfastVC.h"

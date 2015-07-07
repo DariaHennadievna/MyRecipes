@@ -101,62 +101,54 @@
     {
         if ([segue.identifier isEqualToString:@"ShowAppetizer"])
         {
-            if ([segue.destinationViewController isKindOfClass:[AppetizerVC class]])
+            if ([segue.destinationViewController isKindOfClass:[AppetizerTVC class]])
             {
-                AppetizerVC *appetizeVC =
-                (AppetizerVC *)segue.destinationViewController;
+                AppetizerTVC *appetizeTVC =
+                (AppetizerTVC *)segue.destinationViewController;
                 
                 UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;                
-                [navController setViewControllers:@[appetizeVC] animated:NO];
+                [navController setViewControllers:@[appetizeTVC] animated:NO];
             }
         }
         
         if ([segue.identifier isEqualToString:@"ShowDesert"])
         {
-            if ([segue.destinationViewController isKindOfClass:[DesertVC class]])
+            if ([segue.destinationViewController isKindOfClass:[DesertTVC class]])
             {
-                DesertVC *desertVC =
-                (DesertVC *)segue.destinationViewController;
+                DesertTVC *desertTVC =
+                (DesertTVC *)segue.destinationViewController;
                 
                 UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;                
-                [navController setViewControllers:@[desertVC] animated:NO];
+                [navController setViewControllers:@[desertTVC] animated:NO];
             }
         }
         
         if ([segue.identifier isEqualToString:@"ShowSecondDish"])
         {
-            if ([segue.destinationViewController isKindOfClass:[SecondDishVC class]])
+            if ([segue.destinationViewController isKindOfClass:[SecondDishTVC class]])
             {
-                SecondDishVC *secondDishVC =
-                (SecondDishVC *)segue.destinationViewController;
+                SecondDishTVC *secondDishTVC =
+                (SecondDishTVC *)segue.destinationViewController;
                 
                 UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;
-                [navController setViewControllers:@[secondDishVC] animated:NO];
+                [navController setViewControllers:@[secondDishTVC] animated:NO];
             }
         }
         
         if ([segue.identifier isEqualToString:@"ShowSoup"])
         {
-            if ([segue.destinationViewController isKindOfClass:[SoupVC class]])
+            if ([segue.destinationViewController isKindOfClass:[SoupTVC class]])
             {
-                SoupVC *soupVC =
-                (SoupVC *)segue.destinationViewController;
+                SoupTVC *soupTVC =
+                (SoupTVC *)segue.destinationViewController;
                 
                 UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;
-                [navController setViewControllers:@[soupVC] animated:NO];
+                [navController setViewControllers:@[soupTVC] animated:NO];
             }
         }
         
         if ([segue.identifier isEqualToString:@"ShowSalad"])
         {
-            if ([segue.destinationViewController isKindOfClass:[SaladVC class]])
-            {
-                SaladVC *saladVC =
-                (SaladVC *)segue.destinationViewController;
-                
-                UINavigationController *navController = (UINavigationController *) self.revealViewController.frontViewController;
-                [navController setViewControllers:@[saladVC] animated:NO];
-            }
             if ([segue.destinationViewController isKindOfClass:[SaladTVC class]])
             {
                 SaladTVC *saladTVC =

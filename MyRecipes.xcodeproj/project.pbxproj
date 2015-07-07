@@ -29,6 +29,10 @@
 		848EA4A11B46CFFF00CCFFEC /* RecipesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848EA4A01B46CFFF00CCFFEC /* RecipesCell.m */; };
 		848EA4A41B46DA7400CCFFEC /* profile-image-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 848EA4A21B46DA7400CCFFEC /* profile-image-placeholder.png */; };
 		848EA4A51B46DA7400CCFFEC /* profile-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848EA4A31B46DA7400CCFFEC /* profile-image-placeholder@2x.png */; };
+		84A0378F1B4BCE6C000E6B3F /* AppetizerTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0378E1B4BCE6C000E6B3F /* AppetizerTVC.m */; };
+		84A037921B4BD904000E6B3F /* SecondDishTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A037911B4BD904000E6B3F /* SecondDishTVC.m */; };
+		84A037951B4BDB8E000E6B3F /* DesertTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A037941B4BDB8E000E6B3F /* DesertTVC.m */; };
+		84A037981B4BDDBB000E6B3F /* SoupTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A037971B4BDDBB000E6B3F /* SoupTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,14 @@
 		848EA4A01B46CFFF00CCFFEC /* RecipesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipesCell.m; path = Views/RecipesCell.m; sourceTree = "<group>"; };
 		848EA4A21B46DA7400CCFFEC /* profile-image-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder.png"; sourceTree = "<group>"; };
 		848EA4A31B46DA7400CCFFEC /* profile-image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder@2x.png"; sourceTree = "<group>"; };
+		84A0378D1B4BCE6C000E6B3F /* AppetizerTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppetizerTVC.h; path = VCs/AppetizerTVC.h; sourceTree = "<group>"; };
+		84A0378E1B4BCE6C000E6B3F /* AppetizerTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppetizerTVC.m; path = VCs/AppetizerTVC.m; sourceTree = "<group>"; };
+		84A037901B4BD904000E6B3F /* SecondDishTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondDishTVC.h; path = VCs/SecondDishTVC.h; sourceTree = "<group>"; };
+		84A037911B4BD904000E6B3F /* SecondDishTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondDishTVC.m; path = VCs/SecondDishTVC.m; sourceTree = "<group>"; };
+		84A037931B4BDB8E000E6B3F /* DesertTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DesertTVC.h; path = VCs/DesertTVC.h; sourceTree = "<group>"; };
+		84A037941B4BDB8E000E6B3F /* DesertTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DesertTVC.m; path = VCs/DesertTVC.m; sourceTree = "<group>"; };
+		84A037961B4BDDBB000E6B3F /* SoupTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoupTVC.h; path = VCs/SoupTVC.h; sourceTree = "<group>"; };
+		84A037971B4BDDBB000E6B3F /* SoupTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoupTVC.m; path = VCs/SoupTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,20 +197,28 @@
 			children = (
 				845F0EF81B46C26600668308 /* DesertVC.h */,
 				845F0EF91B46C26600668308 /* DesertVC.m */,
+				84A037931B4BDB8E000E6B3F /* DesertTVC.h */,
+				84A037941B4BDB8E000E6B3F /* DesertTVC.m */,
 				843D7E561B42DBD300A9D58E /* AppetizerVC.h */,
 				843D7E571B42DBD300A9D58E /* AppetizerVC.m */,
+				84A0378D1B4BCE6C000E6B3F /* AppetizerTVC.h */,
+				84A0378E1B4BCE6C000E6B3F /* AppetizerTVC.m */,
 				843D7E5C1B42DC1200A9D58E /* SecondDishVC.h */,
 				843D7E5D1B42DC1200A9D58E /* SecondDishVC.m */,
+				84A037901B4BD904000E6B3F /* SecondDishTVC.h */,
+				84A037911B4BD904000E6B3F /* SecondDishTVC.m */,
 				845F0EE31B46C06500668308 /* SoupVC.h */,
 				845F0EE41B46C06500668308 /* SoupVC.m */,
+				84A037961B4BDDBB000E6B3F /* SoupTVC.h */,
+				84A037971B4BDDBB000E6B3F /* SoupTVC.m */,
 				845F0EE01B46C04C00668308 /* SaladVC.h */,
 				845F0EE11B46C04C00668308 /* SaladVC.m */,
+				84459FEC1B49937400230DC8 /* SaladTVC.h */,
+				84459FED1B49937400230DC8 /* SaladTVC.m */,
 				845F0EE61B46C0A600668308 /* SnackVC.h */,
 				845F0EE71B46C0A600668308 /* SnackVC.m */,
 				844D90071B46C4440015FD33 /* BreakfastVC.h */,
 				844D90081B46C4440015FD33 /* BreakfastVC.m */,
-				84459FEC1B49937400230DC8 /* SaladTVC.h */,
-				84459FED1B49937400230DC8 /* SaladTVC.m */,
 			);
 			name = ResipesVC;
 			sourceTree = "<group>";
@@ -341,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */,
+				84A037921B4BD904000E6B3F /* SecondDishTVC.m in Sources */,
 				848EA4A11B46CFFF00CCFFEC /* RecipesCell.m in Sources */,
 				845F0EFA1B46C26600668308 /* DesertVC.m in Sources */,
 				84459FEE1B49937400230DC8 /* SaladTVC.m in Sources */,
@@ -349,12 +370,15 @@
 				845F0EE21B46C04C00668308 /* SaladVC.m in Sources */,
 				845C18661B43D38F00172A62 /* DietVC.m in Sources */,
 				845F0EE81B46C0A600668308 /* SnackVC.m in Sources */,
+				84A0378F1B4BCE6C000E6B3F /* AppetizerTVC.m in Sources */,
 				843D7E581B42DBD300A9D58E /* AppetizerVC.m in Sources */,
+				84A037981B4BDDBB000E6B3F /* SoupTVC.m in Sources */,
 				843D7E2B1B42CAF100A9D58E /* main.m in Sources */,
 				843D7E5E1B42DC1200A9D58E /* SecondDishVC.m in Sources */,
 				843D7E501B42CCB000A9D58E /* SWRevealViewController.m in Sources */,
 				84459FF91B49A1E000230DC8 /* TableViewCell.m in Sources */,
 				845F0EE51B46C06500668308 /* SoupVC.m in Sources */,
+				84A037951B4BDB8E000E6B3F /* DesertTVC.m in Sources */,
 				844D90091B46C4440015FD33 /* BreakfastVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

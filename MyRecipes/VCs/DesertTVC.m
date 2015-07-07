@@ -39,18 +39,23 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TableViewCell" forIndexPath:indexPath];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     cell.dishImageView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"profile-image-placeholder.png"]];
     
-    //cell.titleLabel.text =  [self titleString];
-    //cell.recipesLabel.text = [self randomLorumIpsum];
     cell.recipesLabel.text = @"This is deteil description of my dish. You can look it by click this cell! Go on! Good luck!! Come back please!!!";
     
-    [cell setNeedsUpdateConstraints];
-    [cell updateConstraintsIfNeeded];
     
     return cell;
     
 }
+
+#pragma mark - Table View Delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"Click! Click!!");
+}
+
 
 @end

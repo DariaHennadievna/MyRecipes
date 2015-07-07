@@ -19,7 +19,6 @@
 		844D90091B46C4440015FD33 /* BreakfastVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D90081B46C4440015FD33 /* BreakfastVC.m */; };
 		845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C18621B43D36A00172A62 /* FavoriteVC.m */; };
 		845C18661B43D38F00172A62 /* DietVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C18651B43D38F00172A62 /* DietVC.m */; };
-		845F0EE21B46C04C00668308 /* SaladVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EE11B46C04C00668308 /* SaladVC.m */; };
 		845F0EE51B46C06500668308 /* SoupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EE41B46C06500668308 /* SoupVC.m */; };
 		845F0EE81B46C0A600668308 /* SnackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EE71B46C0A600668308 /* SnackVC.m */; };
 		845F0EF71B46C25A00668308 /* NavigationMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EF61B46C25A00668308 /* NavigationMenuVC.m */; };
@@ -30,6 +29,10 @@
 		84A037921B4BD904000E6B3F /* SecondDishTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A037911B4BD904000E6B3F /* SecondDishTVC.m */; };
 		84A037951B4BDB8E000E6B3F /* DesertTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A037941B4BDB8E000E6B3F /* DesertTVC.m */; };
 		84A037981B4BDDBB000E6B3F /* SoupTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A037971B4BDDBB000E6B3F /* SoupTVC.m */; };
+		84C795571B4BEEFE00AC45D2 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C795561B4BEEFE00AC45D2 /* DetailController.m */; };
+		84C7955B1B4C466B00AC45D2 /* Recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84C795591B4C466B00AC45D2 /* Recipes.xcdatamodeld */; };
+		84C7955E1B4C499E00AC45D2 /* NSManagedObject+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C7955D1B4C499E00AC45D2 /* NSManagedObject+Serialization.m */; };
+		84C795611B4C4A2F00AC45D2 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C795601B4C4A2F00AC45D2 /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +69,6 @@
 		845C18621B43D36A00172A62 /* FavoriteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoriteVC.m; path = VCs/FavoriteVC.m; sourceTree = "<group>"; };
 		845C18641B43D38F00172A62 /* DietVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DietVC.h; path = VCs/DietVC.h; sourceTree = "<group>"; };
 		845C18651B43D38F00172A62 /* DietVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DietVC.m; path = VCs/DietVC.m; sourceTree = "<group>"; };
-		845F0EE01B46C04C00668308 /* SaladVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaladVC.h; path = VCs/SaladVC.h; sourceTree = "<group>"; };
-		845F0EE11B46C04C00668308 /* SaladVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaladVC.m; path = VCs/SaladVC.m; sourceTree = "<group>"; };
 		845F0EE31B46C06500668308 /* SoupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoupVC.h; path = VCs/SoupVC.h; sourceTree = "<group>"; };
 		845F0EE41B46C06500668308 /* SoupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoupVC.m; path = VCs/SoupVC.m; sourceTree = "<group>"; };
 		845F0EE61B46C0A600668308 /* SnackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnackVC.h; path = VCs/SnackVC.h; sourceTree = "<group>"; };
@@ -86,6 +87,13 @@
 		84A037941B4BDB8E000E6B3F /* DesertTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DesertTVC.m; path = VCs/DesertTVC.m; sourceTree = "<group>"; };
 		84A037961B4BDDBB000E6B3F /* SoupTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoupTVC.h; path = VCs/SoupTVC.h; sourceTree = "<group>"; };
 		84A037971B4BDDBB000E6B3F /* SoupTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoupTVC.m; path = VCs/SoupTVC.m; sourceTree = "<group>"; };
+		84C795551B4BEEFE00AC45D2 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailController.h; path = VCs/DetailController.h; sourceTree = "<group>"; };
+		84C795561B4BEEFE00AC45D2 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailController.m; path = VCs/DetailController.m; sourceTree = "<group>"; };
+		84C7955A1B4C466B00AC45D2 /* Recipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recipes.xcdatamodel; sourceTree = "<group>"; };
+		84C7955C1B4C499E00AC45D2 /* NSManagedObject+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Serialization.h"; sourceTree = "<group>"; };
+		84C7955D1B4C499E00AC45D2 /* NSManagedObject+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Serialization.m"; sourceTree = "<group>"; };
+		84C7955F1B4C4A2F00AC45D2 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = DataManager/DataManager.h; sourceTree = "<group>"; };
+		84C795601B4C4A2F00AC45D2 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = DataManager/DataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,14 +204,14 @@
 				845F0EE41B46C06500668308 /* SoupVC.m */,
 				84A037961B4BDDBB000E6B3F /* SoupTVC.h */,
 				84A037971B4BDDBB000E6B3F /* SoupTVC.m */,
-				845F0EE01B46C04C00668308 /* SaladVC.h */,
-				845F0EE11B46C04C00668308 /* SaladVC.m */,
 				84459FEC1B49937400230DC8 /* SaladTVC.h */,
 				84459FED1B49937400230DC8 /* SaladTVC.m */,
 				845F0EE61B46C0A600668308 /* SnackVC.h */,
 				845F0EE71B46C0A600668308 /* SnackVC.m */,
 				844D90071B46C4440015FD33 /* BreakfastVC.h */,
 				844D90081B46C4440015FD33 /* BreakfastVC.m */,
+				84C795551B4BEEFE00AC45D2 /* DetailController.h */,
+				84C795561B4BEEFE00AC45D2 /* DetailController.m */,
 			);
 			name = ResipesVC;
 			sourceTree = "<group>";
@@ -239,8 +247,21 @@
 		848EA4A61B46E3CB00CCFFEC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84C795581B4C06B000AC45D2 /* DBModel */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		84C795581B4C06B000AC45D2 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				84C795591B4C466B00AC45D2 /* Recipes.xcdatamodeld */,
+				84C7955C1B4C499E00AC45D2 /* NSManagedObject+Serialization.h */,
+				84C7955D1B4C499E00AC45D2 /* NSManagedObject+Serialization.m */,
+				84C7955F1B4C4A2F00AC45D2 /* DataManager.h */,
+				84C795601B4C4A2F00AC45D2 /* DataManager.m */,
+			);
+			name = DBModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,22 +367,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				845C18631B43D36A00172A62 /* FavoriteVC.m in Sources */,
+				84C795611B4C4A2F00AC45D2 /* DataManager.m in Sources */,
 				84A037921B4BD904000E6B3F /* SecondDishTVC.m in Sources */,
 				848EA4A11B46CFFF00CCFFEC /* RecipesCell.m in Sources */,
 				84459FEE1B49937400230DC8 /* SaladTVC.m in Sources */,
 				845F0EF71B46C25A00668308 /* NavigationMenuVC.m in Sources */,
 				843D7E2E1B42CAF100A9D58E /* AppDelegate.m in Sources */,
-				845F0EE21B46C04C00668308 /* SaladVC.m in Sources */,
 				845C18661B43D38F00172A62 /* DietVC.m in Sources */,
+				84C7955E1B4C499E00AC45D2 /* NSManagedObject+Serialization.m in Sources */,
 				845F0EE81B46C0A600668308 /* SnackVC.m in Sources */,
 				84A0378F1B4BCE6C000E6B3F /* AppetizerTVC.m in Sources */,
 				84A037981B4BDDBB000E6B3F /* SoupTVC.m in Sources */,
+				84C795571B4BEEFE00AC45D2 /* DetailController.m in Sources */,
 				843D7E2B1B42CAF100A9D58E /* main.m in Sources */,
 				843D7E501B42CCB000A9D58E /* SWRevealViewController.m in Sources */,
 				84459FF91B49A1E000230DC8 /* TableViewCell.m in Sources */,
 				845F0EE51B46C06500668308 /* SoupVC.m in Sources */,
 				84A037951B4BDB8E000E6B3F /* DesertTVC.m in Sources */,
 				844D90091B46C4440015FD33 /* BreakfastVC.m in Sources */,
+				84C7955B1B4C466B00AC45D2 /* Recipes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +588,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84C795591B4C466B00AC45D2 /* Recipes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84C7955A1B4C466B00AC45D2 /* Recipes.xcdatamodel */,
+			);
+			currentVersion = 84C7955A1B4C466B00AC45D2 /* Recipes.xcdatamodel */;
+			path = Recipes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 843D7E1D1B42CAF100A9D58E /* Project object */;
 }

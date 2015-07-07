@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "SWRevealViewController.h"
 #import "TableViewCell.h"
+#import "DetailController.h"
 
 @interface SoupTVC : UITableViewController
 

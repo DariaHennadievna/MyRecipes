@@ -645,11 +645,56 @@
                     </navigationItem>
                     <connections>
                         <outlet property="barButton" destination="eWp-u6-0Vu" id="ozY-c3-9ci"/>
+                        <segue destination="fAb-Xa-fZe" kind="push" identifier="ShowDetail" id="Tf9-1Z-rFU"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qZE-Le-bv4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1699" y="-803"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="Bi7-dP-kZC">
+            <objects>
+                <viewController id="fAb-Xa-fZe" customClass="DetailController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eco-nL-7XS"/>
+                        <viewControllerLayoutGuide type="bottom" id="C7g-y4-yBv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nay-2C-Vjp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wIR-RK-eYE">
+                                <rect key="frame" x="16" y="28" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="ov4-UW-DAe"/>
+                                    <constraint firstAttribute="width" constant="80" id="t5E-er-zf5"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hem-DR-V10">
+                                <rect key="frame" x="16" y="116" width="288" height="432"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hem-DR-V10" firstAttribute="top" secondItem="wIR-RK-eYE" secondAttribute="bottom" constant="8" id="KYX-hO-Jjo"/>
+                            <constraint firstItem="wIR-RK-eYE" firstAttribute="top" secondItem="eco-nL-7XS" secondAttribute="bottom" constant="8" id="LI0-MF-oan"/>
+                            <constraint firstItem="wIR-RK-eYE" firstAttribute="leading" secondItem="Nay-2C-Vjp" secondAttribute="leadingMargin" id="R46-Ie-jcZ"/>
+                            <constraint firstItem="C7g-y4-yBv" firstAttribute="top" secondItem="hem-DR-V10" secondAttribute="bottom" constant="20" id="akl-I4-fLf"/>
+                            <constraint firstItem="hem-DR-V10" firstAttribute="leading" secondItem="Nay-2C-Vjp" secondAttribute="leadingMargin" id="eDT-va-PDs"/>
+                            <constraint firstItem="hem-DR-V10" firstAttribute="trailing" secondItem="Nay-2C-Vjp" secondAttribute="trailingMargin" id="pJU-xD-gcZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zRg-TU-Mfs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2P-ht-0Jy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2214" y="-803"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
